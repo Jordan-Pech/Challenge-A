@@ -1,0 +1,46 @@
+.box {
+backgorund-color: beige;
+color: black;
+border-radius: 5px;
+border: 2px dodgerblue solid;
+}
+.grid {
+ 
+  width: 1872px;
+  height: 927px;
+  display:grid;
+  background-color: blue;
+  padding: 10px;
+  grid-gap: 5px;
+  grid-template: repeat(5, 3fr 2fr) /repeat (3, 1fr);
+}
+.a {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	text-align:center;
+	font-size:50px;
+}
+
+.b {grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.c {grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+.img {
+	height: 20:
+
